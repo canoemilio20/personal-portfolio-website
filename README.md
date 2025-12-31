@@ -5,25 +5,25 @@ Codecademy Full-Stack Career Path portfolio project: Personal Portfolio Website
 Objective: build a personal portfolio website using HTML, CSS and JS, implementing version control to Git and GitHub.
 
 Requisites:
-- Use HTML, CSS and JS.
-- Implement version control using Git and GitHub.
-- Deploy on GitHub Pages.
-- Based on designed wireframes.
-- Responsive design.
-- Semantic elements.
+* Use HTML, CSS and JS.
+* Implement version control using Git and GitHub.
+* Deploy on GitHub Pages.
+* Based on designed wireframes.
+* Responsive design.
+* Semantic elements.
 
 Content:
-- Name
-- Occupation
-- Interests
-- About me
-- Socials
+- About me (Name, Short description, Occupation / Previous experience, Interests)
+- Skills (hard, soft)
+- Certifications (past, current)
+- Pojects (past, current)
+- Contact
 
 Functionality:
 1. Dynamic nav bar to show where you are.
-2. Breadcrumbs to make navigation easier.
+2. Autoscroll when clicking on the nav bar to make navigation easier.
 3. Section search to skip to interesting content.
-4. Socials links to redirect into them.
+4. Contact links to redirect into them.
 
 Style:
 + Minimalist design.
