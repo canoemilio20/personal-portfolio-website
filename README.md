@@ -20,10 +20,9 @@ Content:
 - Contact
 
 Functionality:
-1. Dynamic nav bar to show where you are.
+1. Dynamic style nav bar to show where you are.
 2. Autoscroll when clicking on the nav bar to make navigation easier.
-3. Section search to skip to interesting content.
-4. Contact links to redirect into them.
+3. Contact links to redirect into them.
 
 Style:
 + Minimalist design.
