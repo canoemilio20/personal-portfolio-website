@@ -1,0 +1,191 @@
+
+/* /////////////////////////////////// NAV BAR \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media only screen and (min-width: 758px) and (max-width: 1006px) {
+
+    .navbar .tab {
+
+        padding: 0.625rem 1.5625rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 632px) and (max-width: 757px) {
+
+    .navbar .tab {
+
+        padding: 0.3125rem 0.78125rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 631px) {
+
+    .navbar {
+
+        flex-wrap: wrap;
+
+    }
+
+    .navbar .tab {
+
+        padding: 0.3125rem 0.78125rem;
+        font-size: 1rem;
+
+    }
+
+    #title {
+
+        font-size: 3rem;
+        padding-top: 1.5rem;
+
+    }    
+
+    #about-me {
+
+        font-size: 1rem;
+
+    }
+
+    #skills {
+
+        font-size: 1rem;
+
+    }
+
+    #certificates {
+
+        font-size: 1rem;
+
+    }
+
+    #projects {
+
+        font-size: 1rem;
+
+    }
+
+    #contact {
+
+        font-size: 1rem;
+
+    }
+
+}
+
+/* /////////////////////////////////// SECTION MARGIN \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media only screen and (min-width: 2366px) and (max-width: 2559px) {
+
+    section {
+
+        margin: 0 40rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 2220px) and (max-width: 2365px) {
+
+    section {
+
+        margin: 0 30rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 2219px) {
+
+    section {
+
+        margin: 0 20rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1999px) {
+
+    section {
+
+        margin: 0 15rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 1675px) and (max-width: 1799px) {
+
+    section {
+
+        margin: 0 10rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1674px) {
+
+    section {
+
+        margin: 0 5rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+    section {
+
+        margin: 0 2rem;
+
+    }
+
+}
+
+/* /////////////////////////////////// IMAGE SIZE \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+@media only screen and (min-width: 1082px) and (max-width: 1262px) {
+
+    #about-me img {
+
+        height: 12rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 880px) and (max-width: 1081px) {
+
+    #about-me img {
+
+        height: 15rem;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 880px) {
+
+    #about-me img {
+
+        height: 12rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    #about-me img {
+
+        float: none;
+        height: 12rem;
+
+    }
+
+}
