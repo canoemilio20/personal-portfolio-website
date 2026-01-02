@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Emilio's Portfolio</title>
         <link href="./style/main.css" rel="stylesheet" type="text/css"/>
-        <script></script>
+        <script src="./script/main.js" defer></script>
 
     </head>
 
@@ -17,35 +17,45 @@
 
             <nav class="navbar">
 
-                <div class="selected tab tab-about-me">
+                <a href="#about-me">
+                    <div class="selected tab">
 
                     <p>About me</p>
 
-                </div>
+                    </div>
+                </a>
 
-                <div class="tab tab-skills">
+                <a href="#skills">
+                    <div class="tab">
 
-                    <p>Skills</p>
+                        <p>Skills</p>
 
-                </div>
+                    </div>
+                </a>
 
-                <div class="tab tab-certifiicates">
+                <a href="#certificates">
+                    <div class="tab">
 
-                    <p>Certificates</p>
+                        <p>Certificates</p>
 
-                </div>
+                    </div>
+                </a>
 
-                <div class="tab tab-projects">
+                <a href="#projects">
+                    <div class="tab">
 
                     <p>Projects</p>
 
-                </div>
+                    </div>
+                </a>
 
-                <div class="tab tab-contact">
+                <a href="#contact">
+                    <div class="tab">
 
                     <p>Contact</p>
 
-                </div>
+                    </div>
+                </a>
 
             </nav>
 
@@ -122,21 +132,21 @@
 
                 <h2>Projects</h2>
 
-                <p><strong>Digital Hub Monterrey</strong></p>
-                <p><i>AI Lab Trainee, June 2024 - present</i></p>
-                <p>I have been part of the AI Laboratory in the collaboration between Digital Hub Monterrey and IBM Mexico to provide solutions that integrate artificial intelligence using tools within the IBM Watson cloud platform to companies such as Cydsa, Oxxo, Xpertal, and Arca Continental Peru.</p>
+                <p class="project"><strong>Digital Hub Monterrey</strong></p>
+                <p class="role"><i>AI Lab Trainee, June 2024 - present</i></p>
+                <p class="description">I have been part of the AI Laboratory in the collaboration between Digital Hub Monterrey and IBM Mexico to provide solutions that integrate artificial intelligence using tools within the IBM Watson cloud platform to companies such as Cydsa, Oxxo, Xpertal, and Arca Continental Peru.</p>
 
-                <p><strong>Mobile application developer</strong></p>
-                <p><i>Co-creator and full-stack developer, January 2023 - present</i></p>
-                <p>The project consists of an application developed using React-Native Expo. I was responsible for the initial setup of both the frontend and backend and have been constructing upon them for the past 2 years. Development is expected to be completed by the end of this year.</p>
+                <p class="project"><strong>Mobile application developer</strong></p>
+                <p class="role"><i>Co-creator and full-stack developer, January 2023 - present</i></p>
+                <p class="description">The project consists of an application developed using React-Native Expo. I was responsible for the initial setup of both the frontend and backend and have been constructing upon them for the past 2 years. Development is expected to be completed by the end of this year.</p>
 
-                <p><strong>Hackathon CEGI Winner</strong></p>
-                <p><i>Product design and ideation, March 2024</i></p>
-                <p>I participated in developing a business proposal for a device capable of tracking its users' location for security purposes. The product consists of a hardware device and an app. I was the lead designer of the basic prototype we developed to present the idea.</p>
+                <p class="project"><strong>Hackathon CEGI Winner</strong></p>
+                <p class="role"><i>Product design and ideation, March 2024</i></p>
+                <p class="description">I participated in developing a business proposal for a device capable of tracking its users' location for security purposes. The product consists of a hardware device and an app. I was the lead designer of the basic prototype we developed to present the idea.</p>
 
-                <p><strong>Drone programming and its applications in architecture</strong></p>
-                <p><i>Lead researcher, February 2022 - November 2022</i></p>
-                <p>I researched the state-of-the-art in DJI drone programming and its interdisciplinary applications. This allowed me to visualize possible uses in the university as part of my scholarship service, involving the architecture program and the possible implementation of AI.</p>
+                <p class="project"><strong>Drone programming and its applications in architecture</strong></p>
+                <p class="role"><i>Lead researcher, February 2022 - November 2022</i></p>
+                <p class="description">I researched the state-of-the-art in DJI drone programming and its interdisciplinary applications. This allowed me to visualize possible uses in the university as part of my scholarship service, involving the architecture program and the possible implementation of AI.</p>
 
             </section>
 
@@ -146,10 +156,10 @@
 
                 <h2>Contact</h2>
 
-                <ul>
-                    <li>Linkedin: linkedin.com/in/emiliof-canom</li>
-                    <li>GitHub: github.com/canoemilio20</li>
-                    <li>E-mail: canoemilio20@gmail.com</li>
+                <ul class="list">
+                    <li><a href="https://linkedin.com/in/emiliof-canom" target="_blank">Linkedin</a></li>
+                    <li><a href="https://github.com/canoemilio20" target="_blank">GitHub</a></li>
+                    <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=canoemilio20@gmail.com" target="_blank">E-mail</a></li>
                 </ul>
 
             </section>
